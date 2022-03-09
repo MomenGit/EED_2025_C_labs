@@ -11,9 +11,3 @@
       width="825"
       height="315"
   /></a>
-  
-  
-  <h5>
-    For Inquiries:
-    <a href="https://www.facebook.com/EEDSocietyAC/">@EEDSocietyAC</a>
-  </h5>
