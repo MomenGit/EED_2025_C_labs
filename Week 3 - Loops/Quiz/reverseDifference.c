@@ -25,5 +25,5 @@ int main()
     }
 
     printf("Reversed: %d\n", reversed);
-    printf("Difference = %d\n", reversed, number, reversed - number);
+    printf("Difference = %d\n", reversed - number);
 }
