@@ -1,0 +1,2 @@
+Implement dynamic stack using linking method
+also add its three main functions push, pop and display.
