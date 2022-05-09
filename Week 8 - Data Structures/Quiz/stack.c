@@ -17,7 +17,7 @@ typedef struct
 Stack init_stack(Stack *, int);
 void push(Stack *, int);
 void pop(Stack *);
-node *peek(Stack *);
+int *peek(Stack *);
 void display(Stack *);
 int is_empty(Stack *);
 int get_size(Stack *);
@@ -78,7 +78,7 @@ void pop(Stack *stack)
 }
 
 /* Gets the last element (top) of the stack */
-node *peek(Stack *stack)
+int *peek(Stack *stack)
 {
     if (is_empty(stack))
     {
@@ -86,7 +86,7 @@ node *peek(Stack *stack)
         return NULL;
     }
 
-    return stack->lastElement;
+    return stack->lastElement->data;
 }
 
 /* Display (print) all elements of the stack */
